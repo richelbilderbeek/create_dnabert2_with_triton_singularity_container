@@ -24,9 +24,9 @@ INFO:    Adding runscript
 INFO:    Creating SIF file...
 INFO:    Build complete: dnabert2_with_triton.sif
 
-real	11m22.296s
-user	0m0.169s
-sys	0m0.466s
+real 11m22.296s
+user 0m0.169s
+sys 0m0.466s
 ```
 
 ## Files used by continuous integration scripts
