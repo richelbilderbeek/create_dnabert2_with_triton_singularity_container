@@ -8,7 +8,7 @@ Do:
 
 ## Output
 
-```
+```bash
 richel@richel-N141CU:~/GitHubs/ticket_297538$ time ./create.sh 
 [sudo] password for richel: 
 INFO:    Starting build...
