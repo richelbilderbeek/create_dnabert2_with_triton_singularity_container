@@ -6,8 +6,6 @@ name: Check spelling
 # 3rd as the first letter of this repo is the 3rd letter in the alphabet.
 on:
   push:
-    branches:
-      - master
   pull_request:
   schedule:
   - cron: "0 0 3 * *"
