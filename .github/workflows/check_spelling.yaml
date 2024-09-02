@@ -2,15 +2,15 @@
 name: Check spelling
 
 # Check spelling on the main branch only, as it takes quite long.
-# Check spelling on the 21st day of the month.
-# 21st as the first letter of this repo is the 21st letter in the alphabet.
+# Run this script on the 3rd day of the month.
+# 3rd as the first letter of this repo is the 3rd letter in the alphabet.
 on:
   push:
     branches:
       - main
   pull_request:
   schedule:
-  - cron: "0 0 21 * *"
+  - cron: "0 0 3 * *"
 
 
 jobs:

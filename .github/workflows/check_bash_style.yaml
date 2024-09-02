@@ -1,10 +1,13 @@
+# Check that the bash script style is correct
 name: Check bash style
 
+# Run this script on the 3rd day of the month.
+# 3rd as the first letter of this repo is the 3rd letter in the alphabet.
 on:
   push:
   pull_request:
   schedule:
-  - cron: "0 0 16 * *"
+  - cron: "0 0 3 * *"
 
 
 jobs:

@@ -1,8 +1,15 @@
+# Build the Singularity container
+name: Buid Singularity container
+
+# Run this script on the 3rd day of the month.
+# 3rd as the first letter of this repo is the 3rd letter in the alphabet.
 on:
   push:
+    branches:
+      - main
   pull_request:
-
-name: build_singularity
+  schedule:
+  - cron: "0 0 3 * *"
 
 jobs:
   build_singularity:
