@@ -1,12 +1,17 @@
 # How to create a Singularity container with DNABERT2 and Triton
 
+This script creates a Singularity container with DNABERT2 and Triton.
+
+- DNABERT 2:[https://github.com/MAGICS-LAB/DNABERT_2](https://github.com/MAGICS-LAB/DNABERT_2)
+- Triton: [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton)
+
 Do:
 
 ```bash
 ./create.sh 
 ```
 
-## Output
+Output will be similar to:
 
 ```bash
 richel@richel-N141CU:~/GitHubs/ticket_297538$ time ./create.sh 
