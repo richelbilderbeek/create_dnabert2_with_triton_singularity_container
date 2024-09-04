@@ -20,8 +20,6 @@ From: condaforge/miniforge3
 
     pip install cmake
 
-    # pip install -e .
-
     cd /opt
     git clone https://github.com/MAGICS-LAB/DNABERT_2
     cd DNABERT_2
@@ -29,4 +27,6 @@ From: condaforge/miniforge3
     python3 -m pip install -r requirements.txt
 
 %runscript
-python3 "$@"
+
+    conda activate dna
+    python3 "$@"

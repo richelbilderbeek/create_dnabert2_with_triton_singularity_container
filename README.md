@@ -2,7 +2,7 @@
 
 This script creates a Singularity container with DNABERT2 and Triton.
 
-- DNABERT 2:[https://github.com/MAGICS-LAB/DNABERT_2](https://github.com/MAGICS-LAB/DNABERT_2)
+- DNABERT 2: [https://github.com/MAGICS-LAB/DNABERT_2](https://github.com/MAGICS-LAB/DNABERT_2)
 - Triton: [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton)
 
 Do:
@@ -33,6 +33,10 @@ real 11m22.296s
 user 0m0.169s
 sys 0m0.466s
 ```
+
+## Usage
+
+
 
 ## Files used by continuous integration scripts
 
