@@ -28,5 +28,6 @@ From: condaforge/miniforge3
 
 %runscript
 
+    conda init bash
     conda activate dna
     python3 "$@"
