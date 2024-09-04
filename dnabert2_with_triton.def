@@ -31,3 +31,17 @@ From: condaforge/miniforge3
     conda init bash
     conda activate dna
     python3 "$@"
+
+%labels
+
+    AUTHOR Richel J.C. Bilderbeek
+
+    NAME DNABERT2 with Triton
+ 
+    DESCRIPTION The tools DNABERT2 and Triton
+
+    USAGE Provide the path to a Python file and the container will run it
+
+    URL https://github.com/richelbilderbeek/create_dnabert2_with_triton_singularity_container
+
+    VERSION 0.2
