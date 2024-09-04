@@ -36,7 +36,9 @@ sys 0m0.466s
 
 ## Usage
 
-
+```
+./dnabert2_with_triton.sif example_dnabert2_with_triton.py
+```
 
 ## Files used by continuous integration scripts
 
