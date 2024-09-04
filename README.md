@@ -5,6 +5,8 @@ This script creates a Singularity container with DNABERT2 and Triton.
 - DNABERT 2: [https://github.com/MAGICS-LAB/DNABERT_2](https://github.com/MAGICS-LAB/DNABERT_2)
 - Triton: [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton)
 
+## Building the container
+
 Do:
 
 ```bash
@@ -34,7 +36,7 @@ user 0m0.169s
 sys 0m0.466s
 ```
 
-## Usage
+## Using the container
 
 The container is made to run its `python3` on the script filename provided,
 for example:
