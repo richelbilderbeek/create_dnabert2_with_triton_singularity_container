@@ -8,14 +8,6 @@ From: python:3.8.19
     export BASH_ENV=/root/bashrc
 
 %post
-    # Create and activate virtual python environment
-    # conda create -n dna python=3.8
-
-    # conda init bash
-
-    # echo -e "\nconda activate dna" >> ~/.bashrc
-    # echo -e "\nconda activate dna" >> /root/bashrc
-
     pip install triton
 
     pip install cmake
@@ -28,8 +20,6 @@ From: python:3.8.19
 
 %runscript
 
-    # conda init bash
-    # conda activate dna
     python3 "$@"
 
 %labels
@@ -44,4 +34,4 @@ From: python:3.8.19
 
     URL https://github.com/richelbilderbeek/create_dnabert2_with_triton_singularity_container
 
-    VERSION 0.2
+    VERSION 0.3
