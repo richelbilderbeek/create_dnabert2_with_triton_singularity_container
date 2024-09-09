@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: condaforge/miniforge3
+From: python/3.8.19
 
 # From https://geniac.readthedocs.io/en/latest/conda.html#example2-activate-the-conda-environment-at-startup-with-singularity-exec-or-run
 %environment
@@ -9,12 +9,12 @@ From: condaforge/miniforge3
 
 %post
     # Create and activate virtual python environment
-    conda create -n dna python=3.8
+    # conda create -n dna python=3.8
 
-    conda init bash
+    # conda init bash
 
-    echo -e "\nconda activate dna" >> ~/.bashrc
-    echo -e "\nconda activate dna" >> /root/bashrc
+    # echo -e "\nconda activate dna" >> ~/.bashrc
+    # echo -e "\nconda activate dna" >> /root/bashrc
 
     pip install triton
 
@@ -28,8 +28,8 @@ From: condaforge/miniforge3
 
 %runscript
 
-    conda init bash
-    conda activate dna
+    # conda init bash
+    # conda activate dna
     python3 "$@"
 
 %labels
